@@ -12,6 +12,6 @@ LOCAL_REQUIRED_MODULES := \
 
 LOCAL_MODULE_TARGET_ARCH := arm64
 my_src_arch := $(call get-prebuilt-src-arch,$(LOCAL_MODULE_TARGET_ARCH))
-LOCAL_SRC_FILES := prebuilt/$(my_src_arch)/MonochromePublic.apk
+LOCAL_SRC_FILES := prebuilt/$(my_src_arch)/ChromeModernPublic.apk
 
 include $(BUILD_PREBUILT)
